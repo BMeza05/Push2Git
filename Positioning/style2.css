@@ -1,0 +1,22 @@
+*{
+    justify-content: space-around;
+    align-items: center;  
+}
+.container{
+   width: 650px;
+   background: linear-gradient(0deg, rgba(255,255,255,1) 49%, rgba(16,233,242,1) 49%);
+   height: 200px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 500px;
+   
+}
+img{
+    width: 100px;
+    border-radius: 80%;
+    margin-top: 60px;
+}
+a{
+    color: blue;
+    border: none;
+    list-style: underline;
+}
