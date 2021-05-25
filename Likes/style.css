@@ -1,0 +1,14 @@
+.likebox{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 550px;
+    align-items: center;
+}
+.Likes-container{
+    display: flex;
+    align-items: center;
+}
+.ml-1{
+    margin-left: 5px;
+}
