@@ -1,0 +1,28 @@
+.Header{
+    width: 750px;
+    margin-left: 300px;
+    background: black;
+    height: 50px;
+    color: white;
+}
+.main-content{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.Feed{
+    margin-left: 500px;
+
+}
+.left-col{
+    padding: 20px;
+
+}
+.right-col{
+    padding-left: 100px;
+    width: 350px;
+}
+.likebox{
+    display: flex;
+    justify-content: space-around;
+}

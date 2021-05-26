@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1>Network</h1>
+        </div>
+        <div class="Feed">
+            <h1>Your feed</h1>
+        </div>
+        <div class="main-content">
+            <div class="left-col">
+                <img src="profile.png" alt="Profile picture">
+                <a href="#">Add an avatar</a>
+                <h1>Jonathan doe</h1>
+            </div>
+            <div class="right-col">
+                <div class="box 1">
+                    <div class="likebox">
+                    <h2>Neil M</h2>
+                    <h2 id="Likes">6</h2>
+                    <h2>Like(s)</h2>
+                    <button onclick="raise()">like</button>
+                </div>
+                <div class="filler-text">
+                    <h3>Just made a discord bot, is it cool or what? <a href="#">Link</a></h3>
+                </div>
+                <div class="box 2">
+                    <div class="likebox">
+                        <h2>Cornelius M.</h2>
+                        <h2 id="Like2">9</h2>
+                        <h2>Like(s)</h2>
+                        <button onclick="raise2()">Like</button>
+                    </div>
+                    <div class="filler-text">
+                        <h3>The only interesting thing about me is that my name is <a onclick="dispAlert2()" id="Alert2" href="#">Cornelius</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="box 3">
+                    <div class="likebox">
+                        <h2>Harry Pottah</h2>
+                        <h2 id="Like3">12</h2>
+                        <h2>Like(s)</h2>
+                        <button onclick="raise3()">like</button>
+                    </div>
+                    <div class="filler-text">
+                        <h3>Help me!! I lost <a id="Alert3" onclick="dispAlert3()" href="#">Deez</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script2.js"></script>
+</body>
+
+</html>
